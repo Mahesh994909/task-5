@@ -1,0 +1,64 @@
+#box1{
+  border: 5px solid black;
+  width: 300px;
+    height: 500px;
+    border: 1px solid ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(189, 199, 190);
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    
+  
+}
+#head{
+  background-color: rgb(91, 85, 82);
+  color: white;
+  padding: 15px;
+  border-radius:10px 10px 0px 0px;
+  position: relative;
+  text-align: center;
+  
+}
+#body{
+    padding: 10px;
+    overflow-y: scroll;
+    position: relative;
+    background-image: url(./img.png);
+     
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  .you{ 
+    border: 1px solid;
+    background-color: rgb(157, 239, 239);
+    padding: 1px;
+    border-radius: 20px;
+    width: 190px;
+    margin-top: 10px;
+    
+  }
+  .friend{
+    margin-left: 90px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: rgb(217, 232, 232);
+    margin-top: 10px;
+  
+   
+  }
+  #footer{
+    background-color:white;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px ;
+    bottom: 0;
+    width:280px;
+  }
+ 
+
+
+
+
